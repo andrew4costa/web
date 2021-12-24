@@ -1,0 +1,18 @@
+{
+  "name": "myproject",
+  "version": "0.0.0",
+  "homepage": "https://andrew4costa.github.io/andrew4costa",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "vite": "^2.7.2"
+  },
+  "dependencies": {
+    "three": "^0.135.0"
+  }
+}
